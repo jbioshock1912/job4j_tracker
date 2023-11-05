@@ -23,7 +23,6 @@ public class Student {
         this.group = group;
     }
 
-
     public Date getDateOfAdmission() {
         return dateOfAdmission;
     }
