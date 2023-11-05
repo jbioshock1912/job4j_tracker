@@ -2,7 +2,7 @@ package ru.job4j.pojo;
 
 public class ShopDrop {
     public static Product[] delete(Product[] products, int index) {
-        if (products.length == 2 && index == 1){
+        if (products.length == 2 && index == 1) {
             products[1] = null;
         }
         for (int i = index; i < products.length - 1; i++) {
