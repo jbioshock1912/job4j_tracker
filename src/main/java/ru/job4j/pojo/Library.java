@@ -29,7 +29,7 @@ public class Library {
         System.out.println("вывод книги с именем Clean code");
         for (int index = 0; index < bookForChild.length; index++) {
             Book book = bookForChild[index];
-            if (book.getName().equals("Clean code")) {
+            if ("Clean code".equals(book.getName())) {
                 System.out.println(book.getName() + " - " + book.getPage());
             }
         }
